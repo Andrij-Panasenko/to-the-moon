@@ -1,12 +1,8 @@
-/**
-  |============================
-  | include css partials with
-  | default @import url()
-  |============================
-*/
-@import url('./reset.css');
-@import url('./vite-promo.css');
-@import url('./header.css');
+body {
+  margin: 0;
+  padding: 0;
+  background-image: url('../models/background.jpeg');
+}
 
 :root {
   font-family: Inter, Avenir, Helvetica, Arial, sans-serif;
